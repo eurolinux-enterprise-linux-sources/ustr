@@ -27,7 +27,7 @@
 
 Name: ustr
 Version: 1.0.4
-Release: 14%{?dist}
+Release: 16%{?dist}
 Summary: String library, very low memory overhead, simple to import
 Group: System Environment/Libraries
 License: MIT or LGPLv2+ or BSD
@@ -151,6 +151,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.0.4-16
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.4-15
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.0.4-14
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
